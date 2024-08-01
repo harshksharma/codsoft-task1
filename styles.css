@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(45deg, #32aaef, #34e9ac);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navbar .logo a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero {
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: white;
+    color: #34e9ac;
+    border: none;
+    cursor: pointer;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services .service {
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #32aaef;
+    color: white;
+    border-radius: 5px;
+}
+
+.services .service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-us {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.about-us button {
+    padding: 10px 20px;
+    background-color: #32aaef;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Our Services Section */
+.our-services {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.our-services h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.our-services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.our-services .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.our-services .service h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
